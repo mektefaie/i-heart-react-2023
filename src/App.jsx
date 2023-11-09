@@ -1,14 +1,14 @@
+import Header from './components/Header';
+import HeartsList from './components/HeartsList';
 import './App.css';
-import Heart from './components/Heart';
 
-const message = 'cool cud';
-
-function App() {
+const App = () => {
   return (
     <>
-      <Heart msg={message} />
+      <Header />
+      <HeartsList />
     </>
   );
-}
+};
 
 export default App;
